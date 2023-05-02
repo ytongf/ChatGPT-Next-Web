@@ -526,7 +526,7 @@ export function Chat() {
     const copiedHello = Object.assign({}, BOT_HELLO);
     if (!accessStore.isAuthorized()) {
       //copiedHello.content = Locale.Error.Unauthorized;
-        copiedHello.content = "欢迎您使用 ChatGPT of NianBroken\n\n我们是大陆响应速度最快的ChatGPT，您可以将我们称之为“国内版ChatGPT”\n\n目前我们向用户提供的 ChatGPT 免费额度已被用完，如果您要使用我们的服务，请前往[设置](/#/settings)填写本站的密码或填写您的 OpenAI API 密钥。(但我们仍会不定时的增加 ChatGPT 免费额度，届时，您将无需输入任何密码或密钥，也可使用我们的服务)\n\n我们高度优先考虑您的 API 密钥的安全，并非常小心地处理它。您的密钥将专门存储在您的浏览器中，并且永远不会与任何第三方实体共享。它仅用于访问 OpenAI API 的预期用途，而不是用于任何其他未经授权的用途。\n\n如果您没有本站的密码或 OpenAI API 密钥，您可以通过添加“微信号：NianBroken”来购买 ChatGPT 账号或 OpenAI API 密钥。\n\n此外，我们也可以为您搭建一个与本站一样的 ChatGPT 商用网站，您可以通过添加“微信号：NianBroken”来了解更多内容。\n\n![](https://www.nianbroken.top/chatgpt.png)";
+        copiedHello.content = "欢迎您使用 ChatGPT of NianBroken\n\n我们是大陆响应速度最快的 ChatGPT，您可以将我们称之为“国内版ChatGPT”\n\n目前我们向用户提供的 ChatGPT 免费额度已被用完，如果您要使用我们的服务，请前往[设置](/#/settings)填写本站的密码或填写您的 OpenAI API 密钥。(但我们仍会不定时的增加 ChatGPT 免费额度，届时，您将无需输入任何密码或密钥，也可使用我们的服务)\n\n我们高度优先考虑您的 API 密钥的安全，并非常小心地处理它。您的密钥将专门存储在您的浏览器中，并且永远不会与任何第三方实体共享。它仅用于访问 OpenAI API 的预期用途，而不是用于任何其他未经授权的用途。\n\n如果您没有本站的密码或 OpenAI API 密钥，您可以通过添加“微信号：NianBroken”来购买 ChatGPT 账号或 OpenAI API 密钥。\n\n此外，我们也可以为您搭建一个与本站一样的 ChatGPT 商用网站，您可以通过添加“微信号：NianBroken”来了解更多内容。\n\n![](https://www.nianbroken.top/chatgpt.png)";
     }
     context.push(copiedHello);
   }
