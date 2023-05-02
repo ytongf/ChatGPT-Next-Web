@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "当前您正处于未授权的状态，请前往[设置](/#/settings)填写本站的密码或填写您的OpenAI API密钥。\n您也可以向“微信号：NianBroken”购买ChatGPT账号或OpenAI API密钥。",
+      "当前您正处于未授权的状态，请前往[设置](/#/settings)填写本站的密码或填写您的OpenAI API密钥。\n您也可以向“微信号：ytongf”或QQ号：“3134399769”购买ChatGPT账号或OpenAI API密钥。",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
