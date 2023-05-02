@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\config",
+    "\\app\\icons",
+    "\\app\\locales",
+    "\\app\\masks",
+    "\\app\\store",
+    "\\app\\styles",
+    "\\public",
+    "\\scripts"
+  ],
+  "SelectedNode": "\\app\\locales\\cn.ts",
+  "PreviewInSolutionExplorer": false
+}
