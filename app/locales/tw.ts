@@ -4,7 +4,7 @@ import type { LocaleType } from "./index";
 const tw: LocaleType = {
   WIP: "該功能仍在開發中……",
   Error: {
-      Unauthorized: "當前您正處於未授權的狀態，請前往[設置](/#/settings)填寫本站的密碼密碼或填寫您的OpenAI API密鑰。\n您也可以向“微信號：NianBroken”購買ChatGPT賬號或OpenAI API密鑰。",
+      Unauthorized: "當前您正處於未授權的狀態，請前往[設置](/#/settings)填寫本站的密碼密碼或填寫您的OpenAI API密鑰。\n您也可以向“微信號："ytongf”或QQ号：“3134399769”購買ChatGPT賬號或OpenAI API密鑰。",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 條對話`,
